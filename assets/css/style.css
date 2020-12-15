@@ -290,7 +290,7 @@ address {
 @media (min-width: 800px){ 
  
     .side-left{
-  height: 1705px;
+  height: 1610px;
 }
  }
 
@@ -895,22 +895,22 @@ box-shadow:         -1px 9px 7px 0px rgba(0, 0, 0, 0.24);
 }
 
 .global_section p{
-  color: #f8c12c;
+  color: #528C7C;
   width: 30%;
   display: inline-block;
   text-align: -webkit-center;
   font-size: 12px;
   margin-top: 6px;
-  border-right: 1px solid #f8c12c ;
+  border-right: 1px solid #528C7C ;
 }
 
 .global_section a{
-  background-color: #f8c12c;
+  background-color: #528C7C;
   display: inline-block;
   padding: 6px 12px;
   color: #000;
   float: right;
-  margin-right: 200px;
+  margin-right: 250px;
   margin-top: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -925,4 +925,9 @@ box-shadow:         -1px 9px 7px 0px rgba(0, 0, 0, 0.24);
 #navbar-spy{
   padding-top: 10px;
   text-transform: uppercase;
+}
+
+
+.thumb a{
+  height: 60px;
 }
