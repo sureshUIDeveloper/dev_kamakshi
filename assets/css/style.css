@@ -393,12 +393,31 @@ p.blog-text{
 }
 
 .office-logo {
-  width: 85%;
+  width: 90%;
+  padding-top: 5px ;
 }
 
 @media (max-width: 768px){ 
     .office-logo{
       width: 80%;
+  }
+
+  #navbar-spy{
+    padding-top: 14px;
+    margin-top: 14px;
+  }
+
+  .blog-post{
+    height: 300px;
+  }
+
+  .dimensions h3{
+    font-size: 34px !important;
+  }
+
+  .middle_content{
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .copyright{
@@ -414,7 +433,7 @@ p.blog-text{
   }
 
   .container-kamn h1{
-    font-size: 48px;
+    font-size: 34px;
   }
 
   .navbar-nav{
@@ -930,4 +949,14 @@ box-shadow:         -1px 9px 7px 0px rgba(0, 0, 0, 0.24);
 
 .thumb a{
   height: 60px;
+}
+
+.about p{
+  font-size: 14px;
+}
+
+.about ul li{
+  list-style: disc;
+  font-size: 14px;
+  
 }
