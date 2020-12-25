@@ -165,6 +165,7 @@ body {
     font-size: 12px;
     line-height: 24px;
     background:#F8FAFF;
+    font-family: 'PT Sans', sans-serif;
    
 }
 
@@ -433,7 +434,7 @@ p.blog-text{
   }
 
   .container-kamn h1{
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .navbar-nav{
@@ -475,6 +476,10 @@ p.blog-text{
   padding-bottom: 50px;
 }
 @media (max-width: 767px) {
+
+  body {
+    font-size: 14px;
+  }
   .feedback-section {
     padding-bottom: 40px;
   }
@@ -555,6 +560,14 @@ p.blog-text{
     padding-bottom: 40px;
     margin-top: 0px;
   }
+
+  .table .col-md-5 p strong {
+    font-size: 14px;
+  };
+
+  .table .col-md-7 p {
+    font-size: 14px !important;
+  };
   .carousel-inner >.item > img {
     height: 260px !important;
   }
