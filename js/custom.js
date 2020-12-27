@@ -125,7 +125,7 @@ if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
        return true;
        
    }else{
-       $('.error_msg').html("Please fill the required field.").show().fadeOut(1500);
+       $('.error_msg').html("Please fill the required field.").show().fadeOut(3000);
        return false;
    }
   })
